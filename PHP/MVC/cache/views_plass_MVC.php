@@ -1,0 +1,22 @@
+<?php class_exists('Blade') or exit; ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+</head>
+<body style="background-color: rgb(213, 225, 104);">
+  <form action="AdditionController.php/add" method="post">
+    <h1>試以簡易型 MVC 框架，實現輸入兩整數a、b，計算其和。【1110731018】</h1><hr />
+    <p>輸入數字 A：<input type="number" name="a" required></p>
+    <p>輸入數字 B：<input type="number" name="b" required></p>
+    <button type="submit" id="b">送出</button>
+    <button type="reset" >清除</button>
+  </form>
+</body>
+</html>
+

@@ -1,0 +1,84 @@
+html{
+    /*設定網頁背景色*/
+    background-color:#e9e7ef;
+    font-family: Microsoft JhengHei;
+}
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.wraper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    width: 50%;
+    height: 80px;
+    font-size: 40px;
+    box-sizing: border-box;
+    background-color: #801dae;
+    border-radius: 40px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.square1{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 30px ;
+    width: 800px;
+}
+
+.square1 li{
+    width: 700px;
+}
+
+.update{
+    width: 350px;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: pink;
+    color: #801dae;
+    display: flex;
+    justify-content: center;
+}
+
+
+.square3{
+    display:flex;
+    justify-content: center;
+}
+.linkLine{
+    text-decoration: none;
+    color:darkorchid;
+}
+.linkLine:hover{
+    text-decoration: none;
+    color:darkmagenta;
+    font-size: 18px;
+}
+.button{ 
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+} 

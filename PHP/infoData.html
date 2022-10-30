@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex03.css" type="text/css" media="all" />
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="infoData.php" method="post">
+        <div class="wrape">
+            <div class="title">
+                <h1>基本資料</h1>
+                <hr />
+            </div>
+
+            <div class="infoContainer">
+                <div class="infoData">
+                    <a>
+                    學號
+                </a>&emsp;
+                    <input type="text" name="studentId" required />
+                </div>
+
+                <br />
+                <div class="infoData">
+                    <a>
+                    姓名
+                </a>&emsp;
+                    <input type="text" name="name" required />
+                </div>
+
+                <br />
+                <div class="infoData">
+                    <a>
+                    性別
+                </a>&emsp;
+                    <label><input type="radio" name="gender" value="男" checked />男</label> &nbsp;
+                    <label>
+          <input type="radio" name="gender" value="女" />女</label>
+                </div>
+
+                <br />
+                <div class="infoData">
+                    <a>
+                    手機
+                </a>&emsp;
+                    <input type="tel" name="phoneNumber" required />
+                </div>
+
+                <br />
+                <div class="infoData">
+                    <a>
+                    擅長運動
+                </a>&nbsp;
+                    <label><input type="checkbox" name="sport[]" value="羽球" />羽球</label>
+                    <label><input type="checkbox" name="sport[]" value="籃球" />籃球</label>
+                    <label><input type="checkbox" name="sport[]" value="桌球" />桌球</label>
+                    <label><input type="checkbox" name="sport[]" value="直排輪" />直排輪</label>
+                </div>
+
+                <br />
+                <div class="infoData">
+                    <a>
+                    郵件
+                </a>&emsp;
+                    <input type="email" name="mail" required />
+                </div>
+
+                <br /><br />
+                <div class="send">
+                    <button type="submit" id="button">送出</button> &nbsp;
+                    <button type="reset" id="button">清除</button>
+                </div>
+    </form>
+    </div>
+    </div>
+</body>
+
+</html>

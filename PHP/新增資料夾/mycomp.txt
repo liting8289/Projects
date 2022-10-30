@@ -1,0 +1,36 @@
+CREATE DATABASE mycomp;
+
+CREATE TABLE salarydb (name char(8), age int(3), address text, salary int(8));
+
+INSERT INTO salarydb VALUES ('小黃', 28, '山上', 30000);
+INSERT INTO salarydb VALUES ('小李', 26, '山下', 35000);
+INSERT INTO salarydb VALUES ('小紅', 20, '海邊', 34000);
+----------------------------------------------------------------------------------
+CREATE TABLE students (sno char(12), name char(12), chi int(3), eng int(3), math int(3));
+
+LOAD DATA INFILE 'C:/xampp/htdocs/php7/grade.csv' INTO TABLE students FIELDS TERMINATED BY ',' LINES TERMINATED BY '\r\n';
+
+DELETE FROM students WHERE name="溫雅文";
+
+INSERT INTO students VALUES ('8632407', '溫雅文', 80, 90, 60);
+-----------------------------------------------------------------------------------
+CREATE TABLE guestbook(id int(11), name char(12), gender char(4), comments char(255), subject char(50), ip char(15), bt char(120), dt datetime);
+
+DELETE FROM guestbook where name="林芷葳";
+
+DELETE FROM guestbook where comments="";
+------------------------------------------------------------------------------------
+CREATE DATABASE myapp;
+
+CREATE TABLE users (id int not null auto_increment, name char(8), tel char(12), mail varchar(30),primary key(id));
+
+INSERT INTO users VALUES (1, '郭大明', '0922-444-666', 'hello@myemail.com');
+INSERT INTO users VALUES (2, '陳小明', '0912-345-678', 'chen@example.com');
+INSERT INTO users VALUES (3, '李艾倫', '0923-323-865', 'elee@gmail.com');
+
+listusers.php
+adduser.html
+adduser.php
+edituser.php
+edituser_server.php
+deleteuser.php
