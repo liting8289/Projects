@@ -1,0 +1,235 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:768px){
+.wraper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width:100%;
+    min-width:768px;
+}
+.infoContainer{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.logo{
+    padding-top: 20px;
+    width: 50px
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100px;
+    margin-top: 10px;
+    color: rgb(31, 134, 100);
+}
+.banner{
+    width: 700px;
+    padding-right: 10px;
+    width: fit-content;
+    padding-top: 20px;
+    width: fit-content;
+    box-sizing: border-box;
+}
+.banner--top{
+    width:fit-content;
+    padding-bottom: 10px;
+    margin-right: 80px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px;
+    border-style:dotted ;
+    border-color: rgb(201, 201, 201);
+}
+
+.banner--top img{
+    width: 700px;
+}
+
+
+.banner--bottom{
+    width: 700px;
+    /* min-width: 768px; */
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner--images{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 15px
+}
+} 
+
+@media screen and (min-width:480px) and (max-width:767px){
+.wraper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 480px;
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:0  10% ;
+    padding-top: 20px;
+    width: 703px;
+    height: 50px;
+}
+
+.infoContainer--menu{
+    display: flex;
+    flex-direction: row;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100px;
+    margin: 0 10px;
+    color: rgb(31, 134, 100);
+}
+
+.banner{
+    min-width: 480px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding: 30px 10%;
+}
+.banner--top{
+    padding-bottom: 15px;
+    width: 544px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner--top img{
+    width: 544px;
+    padding-bottom: 30px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 3px;
+    border-style:dotted ;
+    border-color: rgb(201, 201, 201);
+}
+
+.banner--bottom{
+   width: 544px;
+}
+.banner--images{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 3px;
+    border-style:dotted ;
+    padding-bottom: 20px;
+    /* margin-bottom: 5px; */
+    border-color: rgb(201, 201, 201);
+}
+.infoImg{
+width: 25%;
+padding-top: 10px;
+padding-right: 10px;
+}
+}
+
+@media screen and (max-width :480px){
+.wraper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 480px;
+    width: 100%;
+} 
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;
+    min-width: 480px;
+    padding: 10px 10%;
+}
+.logo{
+    width: 10%;
+}
+.infoContainer--menu{
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.infoContainer--menu img{
+   width: 0;     
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: fit-content;
+    font-size: 20px;
+    color: rgb(31, 134, 100);
+}
+
+.banner{
+    width: 100%;
+    min-width: 480px;
+    margin: 10px 10%;
+    box-sizing: border-box;
+}
+
+.banner--top img{
+    width: 384px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 3px;
+    border-style:dotted ;
+    padding-bottom: 20px;
+    /* margin-bottom: 5px; */
+    border-color: rgb(201, 201, 201);
+}
+
+
+.banner--images{
+    width: 384px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 3px;
+    border-style:dotted ;
+    padding-bottom: 10px;
+    /* margin-bottom: 5px; */
+    border-color: rgb(201, 201, 201);
+    margin-bottom: 10px
+}
+
+.infoImg{
+    width: 384px;
+}
+}

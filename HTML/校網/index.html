@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>國立台中科技大學</title>
+</head>
+
+<body style="background:linear-gradient(to top,rgb(195, 193, 193),white,white) ;">
+    <div class="wraper">
+        <div class="container">
+            <!-- 標題 -->
+            <div class="header">
+                <div class="navbar">
+                    <ul class="navbar navbar--left">
+                        <li>身分入口::</li>
+                        <li>學生|</li>
+                        <li>教職員|</li>
+                        <li>校友</li>
+                    </ul>
+
+                    <ul class="navbar navbar--right">
+                        <li>| My Portal</li>
+                        <li>|網頁導覽</li>
+                        <li>|年度行事曆</li>
+                        <li>|English</li>
+                        <li>|FB|</li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <img src="images/logo.gif">
+                    <div class="header--right">
+                        <img class="year" src="images/year.jpg">
+                        <ul class="menu ">
+                            <li><img src="images/about.jpg"></li>
+                            <li><img src="images/admininstation.jpg"></li>
+                            <li><img src="images/teaching.jpg"></li>
+                            <li><img src="images/news.jpg"></li>
+                            <li><img src="images/enrollment.jpg"></li>
+                            <li><img src="images/learing.jpg"></li>
+                            <li><img src="images/celebration.png"></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 動圖 -->
+            <div class="ad" id="swiper">
+                <img src="images/banner1.png">
+                <img src="images/banner2.png">
+                <img src="images/banner3.png">
+                <img src="images/banner4.png">
+                <img src="images/banner5.jpg">
+            </div>
+
+            <script>
+                (function () {
+                    var imgLen = document.getElementById('swiper');
+                    var images = imgLen.getElementsByTagName('img');
+                    var counter = 1;
+
+                    if (counter <= images.length) {
+                        setInterval(function () {
+                            images[0].src = images[counter].src;
+                            console.log(images[counter].src);
+                            counter++;
+
+                            if (counter === images.length) {
+                                counter = 1;
+                            }
+                        }, 4000);
+                    }
+                })(); 
+                </script>
+                    <!--內容 -->
+                    <div class="layoutNews">
+                        <div class="containerNews--left">
+                            <h4 style="color: rgb(166, 165, 165);">What's News</h4>
+                            <div class="newsContainer">
+                                <div>Apr 7 2022</div>
+                                <div class="newsInfo">
+                                    <a> 本校學務處學生宿舍組徵求宿舍及生活輔導員1名</a><a class="hr">徵才</a>
+                                </div>
+                            </div>
+                            <div class="newsContainer">
+                                <div>Apr 7 2022</div>
+                                <div class="newsInfo">
+                                    <a> 【講座報名】雅思解題技巧大公開！常見失分錯誤</a><a class="activity">活動</a>
+                                </div>
+                            </div>
+                            <div class="newsContainer">
+                                <div>Apr 6 2022</div>
+                                <div class="newsInfo">
+                                    <a> 本校高教深耕計畫徵求計畫專任助理2名</a><a class="hr">活動</a>
+                                </div>
+                            </div>
+                            <div class="newsContainer">
+                                <div>Apr 6 2022</div>
+                                <div class="newsInfo">
+                                    <a> 110學年度第2學期企業人才技能認證(TQC)在校考試自111年4月25日起開始報名</a><a class="activity">活動</a>
+                                </div>
+                            </div>
+                            <div class="newsContainer">
+                                <div>Apr 7 2022</div>
+                                <div class="newsInfo">
+                                    <a> 網路組公告: 因應Google Workspace將於111/5/1改變授權方式，考量在學學生及現職教職員之權益，將進行調整</a><a
+                                        class="notice">公告</a>
+                                </div>
+                            </div>
+                            <div class="more">
+                                <a>more+</a>
+                            </div>
+                        </div>
+                        <div class="containerNews--right">
+                            <div class="act--left">
+                                <div class="actLayout">
+                                    <img src="images/health.jpg">
+                                        <div class="news--link">
+                                            <a>news</a>
+                                            <img style="height: 15px;" src="images/arrow.png">
+                                        </div>
+                                        <a class="actInfo">
+                                            特色躍升計畫「智慧健康照護專題競賽」
+                                        </a>
+                                        <a>2022.04.07</a>
+                                        <a>特色躍升</a>
+                                </div>
+                                <div class="actLayout">
+                                    <img src="images/vacation.png">
+                                        <div class="news--link">
+                                            <a>news</a>
+                                            <img style="height: 15px;" src="images/arrow.png">
+                                        </div>
+                                        <a class="actInfo">
+                                            連假收心防疫總動員
+                                        </a>
+                                        <a>2022.04.06</a>
+                                        <a>中科大 防疫小組</a>
+                                </div>
+                                <div class="actLayout">
+                                    <img src="images/club.png">
+                                        <div class="news--link">
+                                            <a>news</a>
+                                            <img style="height: 15px;" src="images/arrow.png">
+                                        </div>
+                                        <a class="actInfo">
+                                            110學年度學生社團暨自治性團體評鑑
+                                        </a>
+                                        <a>2022.04.06</a>
+                                        <a>學務處 課外活動指導組</a>
+                                </div>
+
+                                <div class="act--right">
+                                    <img src="images/plan.jpg" class="eventImg">
+                                        <img src="images/100celebration.png" class="eventImg">
+                                            <img src="images/covid.png" class="eventImg">
+                                                <img src="images/affairs.jpg" class="eventImg">
+                                                    <img src="images/flyhight.png" class="eventImg">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="top">
+                                            <a>PAGE TOP</a>
+                                            <img src="images/TOP.png" style="height: 15px;">
+                                        </div>
+                                        <!-- 外部連結 -->
+                                        <div class="layoutOutLink">
+                                            <div class="containerOutLink">
+                                                <img src="images/fastLink.png" class="outLinkTitle">
+                                                    <ul class="outLinkInfo">
+                                                        <li>創新教學平台(TronClass)</li>
+                                                        <li>總務系統(租借場地)</li>
+                                                        <li>總務系統(維修廠商入口)</li>
+                                                        <li>總務系統(設備報修系統)</li>
+                                                        <li>111學年度四技二專各入學管道備審資料準備指引</li>
+                                                        <li>專利專區</li>
+                                                        <li>徵才公告專區</li>
+                                                        <li>學雜費專區</li>
+                                                        <li>多元升等辦公室</li>
+                                                        <li>舊版中護首頁</li>
+                                                    </ul>
+                                                    <a class="more">more+</a>
+                                                </img>
+                                            </div>
+                                            <div class="containerOutLink">
+                                                <img src="images/caseLink.png" class="outLinkTitle">
+                                                    <ul class="outLinkInfo">
+                                                        <li>校園施工資訊</li>
+                                                        <li>登革熱防疫專區</li>
+                                                        <li>新生始業輔導專區</li>
+                                                        <li>學生校外各項獎學金申請</li>
+                                                        <li>推廣教育</li>
+                                                        <li>校園網站防毒防駭</li>
+                                                        <li>內部控制宣導</li>
+                                                        <li>性別主流化</li>
+                                                        <li>雲端租屋生活網</li>
+                                                        <li>畢業生調查</li>
+                                                        <li>性教育(含愛滋病防治)專區</li>
+                                                    </ul>
+                                                    <a class="more">more+</a>
+                                                </img>
+                                            </div>
+                                            <div class="containerOutLink">
+                                                <img src="images/fastLink.png" class="outLinkTitle">
+                                                    <ul class="outLinkInfo">
+                                                        <li>創新教學平台(TronClass)</li>
+                                                        <li>總務系統(租借場地)</li>
+                                                        <li>總務系統(維修廠商入口)</li>
+                                                        <li>總務系統(設備報修系統)</li>
+                                                        <li>111學年度四技二專各入學管道備審資料準備指引</li>
+                                                        <li>專利專區</li>
+                                                        <li>徵才公告專區</li>
+                                                        <li>學雜費專區</li>
+                                                        <li>多元升等辦公室</li>
+                                                        <li>舊版中護首頁</li>
+                                                    </ul>
+                                                    <a class="more">more+</a>
+                                                </img>
+                                            </div>
+                                            <div class="containerOutLink">
+                                                <img src="images/fastLink.png" class="outLinkTitle">
+                                                    <ul class="outLinkInfo">
+                                                        <li>創新教學平台(TronClass)</li>
+                                                        <li>總務系統(租借場地)</li>
+                                                        <li>總務系統(維修廠商入口)</li>
+                                                        <li>總務系統(設備報修系統)</li>
+                                                        <li>111學年度四技二專各入學管道備審資料準備指引</li>
+                                                        <li>專利專區</li>
+                                                        <li>徵才公告專區</li>
+                                                        <li>學雜費專區</li>
+                                                        <li>多元升等辦公室</li>
+                                                        <li>舊版中護首頁</li>
+                                                    </ul>
+                                                    <a class="more">more+</a>
+                                                </img>
+                                            </div>
+                                        </div>
+                                        <!-- foot -->
+                                        <div class="people">
+                                            <img src="images/people.gif" >
+                                        </div>
+                                        <div class="footer--images">
+                                            <img src="images/moex_logo.gif">
+                                                <img src="images/accessibility.jpg">
+                                                    <img src="images/map.jpg">
+                                                    </div>
+                                                </div>
+                                                <div class="navbar">
+                                                    <a>三民校區：台中市北區三民路三段129號 | 民生校區：台中市西區三民路一段193號 | 電話：(04)22195678 | 傳真：(04)22195011 | 資訊安全及隱私權政策</a>
+                                                </div>
+                                        </div>
+                                    </body>
+
+                                </html>

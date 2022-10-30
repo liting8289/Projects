@@ -1,0 +1,106 @@
+html{
+    /*設定網頁背景色*/
+    background-color:#e9e7ef;
+    font-family: Microsoft JhengHei;
+}
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.square1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.title{
+    width: 80%;
+    height: 60px;
+    font-size: 40px;
+    box-sizing: border-box;
+    background-color: #801dae;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.square2{
+    display:flex;
+    justify-content: center;
+
+}
+
+.choose{
+    width: 50px;
+    display: flex;
+    margin: 10px;
+}
+
+.square3{
+    display:flex;
+    justify-content: center;
+}
+
+.text{
+    width: 80%;
+    height: 40px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.square4{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 600px;
+    margin-left: 100px;
+    /* padding-left: 200px; */
+    
+}
+
+/* .list{ */
+    /* width: 400px;
+    display: flex;
+    justify-content: space-around;
+} */
+.button{ 
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.update{
+    width: 40%;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+.del{
+    width: 40%;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+}

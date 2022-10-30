@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100vw;
+    background-color: rgb(41, 40, 40);;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.search{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.search--text{
+    float: left;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    padding: 0 20px;
+    background-color: #313131;
+    color: aliceblue;
+}
+
+.search--btn{
+    height: 40px;
+    background-color: #313131;
+    border: 0px solid #313131;
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-left: 150px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container--left{
+    width: 15vw;
+    height: 100%;
+    padding: 10px;
+    
+}
+.container--right{
+    border-left: 1px solid #737373 ;
+    width: 85vw;
+}
+.menuHeader{
+    color: #737373;
+    height: 30px;
+    margin-left: 10px;
+}
+.menu{
+    margin: 10px;
+}
+.menu h4{
+    height: 30px;
+}
+
+.animate{
+    position: relative;
+    width: 85vw;
+    height: 240px;
+    overflow: hidden;
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 85vw;
+}
+.themeContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.infoContainer--theme{
+    width: 35vw;
+   
+}
+.infoContainer--photo{
+    width: 80vw;
+}
+.infoHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 0 20px;
+
+}
+
+.infoBody{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    width: 100%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    margin: 5px;
+    text-align: center;
+}
+.texture{
+    width: 7vw;
+}
+.texture--official{
+    border-radius: 100%;
+}
+.info--additional{
+    width: max-content;
+}
+.info--act{
+    width: 30%;
+    border-radius: 5px;
+    margin: 10px;
+}
+.text--games{
+    border-radius: 10px;
+}
+
+.link{
+    color: green;
+    text-align: end;
+}
+.btn{
+    margin-top: 5px;
+    height:30px;
+    background-color: rgb(161, 170, 251);
+    color: aliceblue;
+    border: 0px;
+}
+.photo{
+    width: 40vw;
+}

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>LINE STORE</title>
+</head>
+
+<body>
+    <div class="wrape">
+        <div class="header">
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+            <div class="search">
+                <input class="search--text" type="textbox" value="搜尋">
+                <!-- <button > -->
+                <img class="search--btn" src="images/search.png">
+                <!-- </button> -->
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="container--left">
+                <div class="menuHeader">
+                    <h4>貼圖</h4>
+                </div>
+                <div class="menu">
+                    <h4>暢享最夯貼圖</h4>
+                    <h4>官方貼圖</h4>
+                    <h4>個人原創貼圖</h4>
+                    <hr />
+                </div>
+                <div class="menuHeader">
+                    <h4>表情貼</h4>
+                </div>
+                <div class="menu">
+                    <h4>官方表情貼</h4>
+                    <h4>個人原創表情貼</h4>
+                    <hr />
+                </div>
+                <div class="menuHeader">
+                    <h4>主題</h4>
+                </div>
+                <div class="menu">
+                    <h4>官方主題</h4>
+                    <h4>個人原創主題</h4>
+                    <hr />
+                </div>
+                <div class="menuHeader">
+                    <h4>LINE服務</h4>
+                </div>
+                <div class="menu">
+                    <h4>WEBTOON</h4>
+                    <h4>LINE GAME</h4>
+                    <h4>LINE PLAY</h4>
+                    <hr />
+                </div>
+                <div class="menu">
+                    <h4>常見問題</h4>
+                </div>
+            </div>
+
+            <div class="container--right">
+                <div class="animate" id="swiper">
+                    <img class="animateImg " src="images/animate01.png">
+                    <!-- <span class="animateCtl"></span> -->
+                    <img class="animateImg" src="images/animate02.png">
+                    <!-- <span class="animateCtl"></span> -->
+                    <img class="animateImg" src="images/animate03.png">
+                    <!-- <span class="animateCtl"></span> -->
+                </div>
+
+
+                <script>
+                    (function () {
+                        var imgLen = document.getElementById('swiper');
+                        var images = imgLen.getElementsByTagName('img');
+                        var counter = 1;
+
+                        if (counter <= images.length) {
+                            setInterval(function () {
+                                images[0].src = images[counter].src;
+                                console.log(images[counter].src);
+                                counter++;
+
+                                if (counter === images.length) {
+                                    counter = 1;
+                                }
+                            }, 4000);
+                        }
+                    })();
+                </script>
+
+                <div class="infoContainer">
+                    <div class="infoHeader">
+                        <h4>官方貼圖</h4>
+                        <a>顯示更多></a>
+                    </div>
+                    <div class="infoBody">
+
+                        <div class="info">
+                            <img src="images/texture.png" class="texture">
+                            <a class="textureText">路人與泥鰍超大聲-又嗆又可愛同樂會</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/texture.png" class="texture">
+                            <a class="textureText">路人與泥鰍超大聲-又嗆又可愛同樂會</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/texture.png" class="texture">
+                            <a class="textureText">路人與泥鰍超大聲-又嗆又可愛同樂會</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/texture.png" class="texture">
+                            <a class="textureText">路人與泥鰍超大聲-又嗆又可愛同樂會</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/texture.png" class="texture">
+                            <a class="textureText">路人與泥鰍超大聲-又嗆又可愛同樂會</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/texture.png" class="texture">
+                            <a class="textureText">路人與泥鰍超大聲-又嗆又可愛同樂會</a>
+                        </div>
+                    </div>
+                    <hr />
+                </div>
+                <div class="infoContainer">
+                    <div class="infoHeader">
+                        <h4>個人原創貼圖</h4>
+                        <a>顯示更多></a>
+                    </div>
+                    <div class="infoBody">
+
+                        <div class="info">
+                            <img src="images/texture--original.png" class="texture">
+                            <a class="textureText">野生喵喵怪的左手愚人節 (內含色禽)</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/texture--original.png" class="texture">
+                            <a class="textureText">野生喵喵怪的左手愚人節 (內含色禽)</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/texture--original.png" class="texture">
+                            <a class="textureText">野生喵喵怪的左手愚人節 (內含色禽)</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/texture--original.png" class="texture">
+                            <a class="textureText">野生喵喵怪的左手愚人節 (內含色禽)</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/texture--original.png" class="texture">
+                            <a class="textureText">野生喵喵怪的左手愚人節 (內含色禽)</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/texture--original.png" class="texture">
+                            <a class="textureText">野生喵喵怪的左手愚人節 (內含色禽)</a>
+                        </div>
+                    </div>
+                    <hr />
+                </div>
+                <div class="infoContainer">
+                    <div class="infoHeader">
+                        <h4>LINE貼圖超值方案</h4>
+                        <a>顯示更多></a>
+                    </div>
+                    <div class="infoBody">
+
+                        <div class="info">
+                            <img src="images/texture--steal.png" class="texture">
+                            <a class="textureText">胖鯊魚鯊西米</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/texture--original.png" class="texture">
+                            <a class="textureText">胖鯊魚鯊西米</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/texture--original.png" class="texture">
+                            <a class="textureText">胖鯊魚鯊西米</a>
+                        </div>
+                        <div class="info info--additional">
+                            <a><b>LINE貼圖超值方案讓聊天樂趣多更多</b></a>
+                            <a>每月只要NT$80，超過500萬組貼圖任君挑選！
+                                還有進階型方案，加碼超值方案表情貼用飽飽，心動不如馬上免費試用！
+                            </a>
+                            <a class="link">超值方案免費試用></a>
+                        </div>
+                    </div>
+                    <hr />
+                </div>
+                <div class="infoContainer">
+                    <div class="infoHeader">
+                        <h4>個人原創表情貼</h4>
+                        <a>顯示更多></a>
+                    </div>
+                    <div class="infoBody">
+
+                        <div class="info">
+                            <img src="images/emjoy.png" class="texture">
+                            <a class="textureText">只是一顆麻糬的動態表情貼</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/emjoy.png" class="texture">
+                            <a class="textureText">只是一顆麻糬的動態表情貼</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/emjoy.png" class="texture">
+                            <a class="textureText">只是一顆麻糬的動態表情貼</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/emjoy.png" class="texture">
+                            <a class="textureText">只是一顆麻糬的動態表情貼</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/emjoy.png" class="texture">
+                            <a class="textureText">只是一顆麻糬的動態表情貼</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/emjoy.png" class="texture">
+                            <a class="textureText">只是一顆麻糬的動態表情貼</a>
+                        </div>
+                    </div>
+                    <hr />
+                </div>
+                <div class="infoContainer">
+                    <div class="infoHeader">
+                        <h4>小編精選</h4>
+                        <a>顯示更多></a>
+                    </div>
+                    <div class="infoBody">
+                        <img src="images/act.png" class="info info--act">
+                        <img src="images/act.png" class="info info--act">
+                        <img src="images/act.png" class="info info--act">
+                    </div>
+                    <hr />
+                </div>
+                <div class="infoContainer">
+                    <div class="infoHeader">
+                        <h4>Games</h4>
+                        <a>顯示更多></a>
+                    </div>
+                    <div class="infoBody">
+                        <div class="info">
+                            <img src="images/game.png" class="texture">
+                            <a class="textureText">LINE金幣派對</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/game.png" class="texture">
+                            <a class="textureText">LINE金幣派對</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/game.png" class="texture">
+                            <a class="textureText">LINE金幣派對</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/game.png" class="texture">
+                            <a class="textureText">LINE金幣派對</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/game.png" class="texture">
+                            <a class="textureText">LINE金幣派對</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/game.png" class="texture text--games">
+                            <a class="textureText">LINE金幣派對</a>
+                        </div>
+                    </div>
+                    <hr />
+                </div>
+                <div class=" themeContainer">
+                    <div class="infoContainer--theme">
+                        <div class="infoHeader ">
+                            <h4>官方主題</h4>
+                            <a>顯示更多></a>
+                        </div>
+                        <div class="infoBody">
+                            <div class="info">
+                                <img src="images/theme.png" class="texture">
+                                <a class="textureText">Sameyan</a>
+                            </div>
+                            <div class="info">
+                                <img src="images/theme.png" class="texture">
+                                <a class="textureText">Sameyan</a>
+                            </div>
+                            <div class="info">
+                                <img src="images/theme.png" class="texture">
+                                <a class="textureText">Sameyan</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="infoContainer--theme">
+                        <div class="infoHeader">
+                            <h4>官方主題</h4>
+                            <a>顯示更多></a>
+                        </div>
+                        <div class="infoBody">
+                            <div class="info">
+                                <img src="images/theme.png" class="texture">
+                                <a class="textureText">Sameyan</a>
+                            </div>
+                            <div class="info">
+                                <img src="images/theme.png" class="texture">
+                                <a class="textureText">Sameyan</a>
+                            </div>
+                            <div class="info">
+                                <img src="images/theme.png" class="texture">
+                                <a class="textureText">Sameyan</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="infoContainer">
+                    <div class="infoHeader">
+                        <h4>官方帳號</h4>
+                        <a>顯示更多></a>
+                    </div>
+                    <div class="infoBody">
+                        <div class="info">
+                            <img src="images/official.jpg" class="texture texture--official">
+                            <a class="textureText">LINE貼圖最前線</a>
+                            <button class="btn">加入好友</button>
+                        </div>
+                        <div class="info">
+                            <img src="images/official.jpg" class="texture texture--official">
+                            <a class="textureText">LINE貼圖最前線</a>
+                            <button class="btn">加入好友</button>
+                        </div>
+                        <div class="info">
+                            <img src="images/official.jpg" class="texture texture--official">
+                            <a class="textureText">LINE貼圖最前線</a>
+                            <button class="btn">加入好友</button>
+                        </div>
+                        <div class="info">
+                            <img src="images/official.jpg" class="texture texture--official">
+                            <a class="textureText">LINE貼圖最前線</a>
+                            <button class="btn">加入好友</button>
+                        </div>
+                        <div class="info">
+                            <img src="images/official.jpg" class="texture texture--official">
+                            <a class="textureText">LINE貼圖最前線</a>
+                            <button class="btn">加入好友</button>
+                        </div>
+                        <div class="info">
+                            <img src="images/official.jpg" class="texture texture--official">
+                            <a class="textureText">LINE貼圖最前線</a>
+                            <button class="btn">加入好友</button>
+                        </div>
+                    </div>
+                    <hr />
+                </div>
+                <div class="infoContainer">
+                    <div class="infoHeader">
+                        <h4>免費貼圖、主題</h4>
+                        <a>顯示更多></a>
+                    </div>
+                    <div class="infoBody">
+
+                        <div class="info">
+                            <img src="images/free.png" class="texture">
+                            <a class="textureText">LINE購物×子宮頸</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/free.png" class="texture">
+                            <a class="textureText">LINE購物×子宮頸</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/free.png" class="texture">
+                            <a class="textureText">LINE購物×子宮頸</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/free.png" class="texture">
+                            <a class="textureText">LINE購物×子宮頸</a>
+                        </div>
+                        <div class="info">
+                            <img src="images/free.png" class="texture">
+                            <a class="textureText">LINE購物×子宮頸</a>
+                        </div>
+                    </div>
+                    <hr />
+                </div>
+                <div class="infoContainer infoContainer--photo">
+                    <div class="infoBody">
+                        <img src="images/photo.png" class="photo">
+                        <img src="images/photoRight.png" class="photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

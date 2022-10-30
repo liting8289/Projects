@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.wraper{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.container{
+width: 967px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    background-color: black;
+    color: aliceblue;
+    width: 1920px;
+    justify-content: center;
+    height: 30px;
+    text-align: center;
+    
+}
+.navbar--left{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+width: 200px;
+}
+.navbar--right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: fit-content;
+    margin-left: 480px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: fit-content;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header--right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.year{
+    width: fit-content;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+
+/* 內容 */
+.layoutNews{
+    margin-bottom: 50px ;
+    padding-bottom :50px ;
+    border-bottom: 3px dotted gray;
+    display: flex;
+    flex-direction: row;
+}
+.containerNews--left{
+    width: 250px;
+    margin-top: 20px;
+    padding-right: 10px;
+    border-right: 2px solid gray;
+}
+
+.newsContainer{
+    margin: 10px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+.more{
+    display: flex;
+    justify-content: end;
+}
+.act--left{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.actLayout{
+    width: 160px;
+    height: 350px;
+    margin-left: 10px ;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+.news--link{
+    margin: 5px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.actInfo{
+    margin: 5px 0;
+    height: 70px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted gray;
+}
+.ad{
+    position: relative;
+    width: 50vw;
+    height: 300px;
+    overflow: hidden;
+}
+.ad img{
+    width: 100%;
+}
+.act--right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 25px;
+}
+
+.layoutOutLink{
+    display: flex;
+    flex-direction: row;
+}
+.containerOutLink{
+    width: 200px;
+    margin: 20px;
+}
+.outLinkInfo{
+list-style-type: none;
+}
+.outLinkInfo li{
+    margin-bottom: 3px;
+    border-bottom: 1px dotted gray;
+}
+
+/* footer */
+
+.people{
+    display: flex;
+    justify-content: center;
+}
+
+.footer--images{
+    display: flex;
+    justify-content:flex-end;
+}
+.footer--images img{
+    margin: 5px   ;
+}
